@@ -1,0 +1,18 @@
+ 
+============================================================
+=====     Queued job information at submit time        =====
+============================================================
+  The submitted file is: gnuScript.sh
+  The time limit is 2:00:00 HH:MM:SS.
+  The target directory is: /home/ualmkc001/HW3/hw3_sol
+  The memory limit is: 8gb
+  The job will start running after: 202410191529.34
+  Job Name: gnu_test2
+  Queue: -q medium
+  Constraints: 
+  Command typed:
+/scripts/run_script gnuScript.sh     
+  Queue submit command:
+qsub -q medium -j oe -N gnu_test2 -a 202410191529.34 -r n -M mhchowdhury@crimson.ua.edu -l walltime=2:00:00 -l select=ncpus=8:mpiprocs=8:mem=8000mb 
+  Job number: 200752
+ 

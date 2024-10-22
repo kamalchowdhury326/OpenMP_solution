@@ -1,0 +1,42 @@
+setting asax scratch directory
+ 
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: gnuScript.sh
+  The time limit is 2:00:00 HH:MM:SS.
+  The target directory is: /home/ualmkc001/HW3/hw3_sol/hw3_2d
+  The working directory is:  /scratch-local/ualmkc001.gnu_test1.200918.asax-pbs1
+  The memory limit is: 8gb
+  The job will start running after: 202410202221.24
+  Job Name: gnu_test1
+  Queue: -q medium
+  Constraints: 
+  Using  8  cores on master node  asax002.asc.edu
+  Node list:  asax002.asc.edu asax002.asc.edu asax002.asc.edu asax002.asc.edu asax002.asc.edu asax002.asc.edu asax002.asc.edu asax002.asc.edu
+  Cores:  8
+  Command typed:
+/scripts/run_script gnuScript.sh     
+  Queue submit command:
+qsub -q medium -j oe -N gnu_test1 -a 202410202221.24 -r n -M mhchowdhury@crimson.ua.edu -l walltime=2:00:00 -l select=ncpus=8:mpiprocs=8:mem=8000mb 
+File created successfully at /scratch/ualmkc001/output_2d.5000.5000.1.txt
+Time taken 393.283353 seconds for size=5000 with 5000 iterations thread=1
+Program terminates normally
+File created successfully at /scratch/ualmkc001/output_2d.5000.5000.2.txt
+Time taken 197.621843 seconds for size=5000 with 5000 iterations thread=2
+Program terminates normally
+File created successfully at /scratch/ualmkc001/output_2d.5000.5000.4.txt
+Time taken 104.207894 seconds for size=5000 with 5000 iterations thread=4
+Program terminates normally
+File created successfully at /scratch/ualmkc001/output_2d.5000.5000.8.txt
+Time taken 55.446142 seconds for size=5000 with 5000 iterations thread=8
+Program terminates normally
+File created successfully at /scratch/ualmkc001/output_2d.5000.5000.10.txt
+Time taken 89.175620 seconds for size=5000 with 5000 iterations thread=10
+Program terminates normally
+File created successfully at /scratch/ualmkc001/output_2d.5000.5000.16.txt
+Time taken 89.916584 seconds for size=5000 with 5000 iterations thread=16
+Program terminates normally
+File created successfully at /scratch/ualmkc001/output_2d.5000.5000.20.txt
+Time taken 87.885834 seconds for size=5000 with 5000 iterations thread=20
+Program terminates normally

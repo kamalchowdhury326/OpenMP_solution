@@ -1,0 +1,35 @@
+setting asax scratch directory
+ 
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: gnuScript.sh
+  The time limit is 2:00:00 HH:MM:SS.
+  The target directory is: /home/ualmkc001/HW3/hw3_sol
+  The working directory is:  /scratch-local/ualmkc001.gnu_test3.200757.asax-pbs1
+  The memory limit is: 8gb
+  The job will start running after: 202410191639.28
+  Job Name: gnu_test3
+  Queue: -q medium
+  Constraints: 
+  Using  8  cores on master node  asax002.asc.edu
+  Node list:  asax002.asc.edu asax002.asc.edu asax002.asc.edu asax002.asc.edu asax002.asc.edu asax002.asc.edu asax002.asc.edu asax002.asc.edu
+  Cores:  8
+  Command typed:
+/scripts/run_script gnuScript.sh     
+  Queue submit command:
+qsub -q medium -j oe -N gnu_test3 -a 202410191639.28 -r n -M mhchowdhury@crimson.ua.edu -l walltime=2:00:00 -l select=ncpus=8:mpiprocs=8:mem=8000mb 
+Time taken 382.320307 seconds for size=5000 with 5000 iterations thread=1
+Program terminates normally
+Time taken 191.679014 seconds for size=5000 with 5000 iterations thread=2
+Program terminates normally
+Time taken 96.043012 seconds for size=5000 with 5000 iterations thread=4
+Program terminates normally
+Time taken 48.205379 seconds for size=5000 with 5000 iterations thread=8
+Program terminates normally
+Time taken 79.680016 seconds for size=5000 with 5000 iterations thread=10
+Program terminates normally
+Time taken 76.539313 seconds for size=5000 with 5000 iterations thread=16
+Program terminates normally
+Time taken 79.959322 seconds for size=5000 with 5000 iterations thread=20
+Program terminates normally

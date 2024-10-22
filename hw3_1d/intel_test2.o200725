@@ -1,0 +1,35 @@
+setting asax scratch directory
+ 
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: intelScript.sh
+  The time limit is 2:00:00 HH:MM:SS.
+  The target directory is: /home/ualmkc001/HW3/hw3_sol
+  The working directory is:  /scratch-local/ualmkc001.intel_test2.200725.asax-pbs1
+  The memory limit is: 8gb
+  The job will start running after: 202410191336.30
+  Job Name: intel_test2
+  Queue: -q medium
+  Constraints: 
+  Using  8  cores on master node  asax010.asc.edu
+  Node list:  asax010.asc.edu asax010.asc.edu asax010.asc.edu asax010.asc.edu asax010.asc.edu asax010.asc.edu asax010.asc.edu asax010.asc.edu
+  Cores:  8
+  Command typed:
+/scripts/run_script intelScript.sh     
+  Queue submit command:
+qsub -q medium -j oe -N intel_test2 -a 202410191336.30 -r n -M mhchowdhury@crimson.ua.edu -l walltime=2:00:00 -l select=ncpus=8:mpiprocs=8:mem=8000mb 
+Time taken 346.366491 seconds for size=5000 with 5000 iterations thread=1
+Program terminates normally
+Time taken 175.232230 seconds for size=5000 with 5000 iterations thread=2
+Program terminates normally
+Time taken 91.420658 seconds for size=5000 with 5000 iterations thread=4
+Program terminates normally
+Time taken 50.174314 seconds for size=5000 with 5000 iterations thread=8
+Program terminates normally
+Time taken 75.363184 seconds for size=5000 with 5000 iterations thread=10
+Program terminates normally
+Time taken 58.080673 seconds for size=5000 with 5000 iterations thread=16
+Program terminates normally
+Time taken 66.925391 seconds for size=5000 with 5000 iterations thread=20
+Program terminates normally
