@@ -1,2 +1,2 @@
-# OpenMP_solution
-# OpenMP_solution
+# OpenMP_solution of Game of life
+
